@@ -1,0 +1,76 @@
+/* src/Home.css */
+
+/* Style for the home container */
+.home-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f3f3f3;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Style for the home content */
+  .home-content {
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 80%;
+    max-width: 600px;
+  }
+  
+  /* Heading style */
+  .home-content h1 {
+    color: #ff5733;
+    font-size: 36px;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  /* Paragraph style */
+  .home-content p {
+    color: #555;
+    font-size: 18px;
+    margin-bottom: 30px;
+    line-height: 1.6;
+  }
+  
+  /* Style for the buttons container */
+  .button-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  /* Style for the buttons */
+  .home-btn {
+    padding: 12px 30px;
+    background-color: #ff5733;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.3s;
+  }
+  
+  .home-btn:hover {
+    background-color: #e94e28;
+  }
+  
+  /* Responsive styling */
+  @media (max-width: 768px) {
+    .home-content {
+      width: 90%;
+      padding: 30px;
+    }
+    .home-content h1 {
+      font-size: 28px;
+    }
+    .home-content p {
+      font-size: 16px;
+    }
+  }
+  
